@@ -1,5 +1,5 @@
 //
-//  FSViewController.h
+//  FSMainTimeline.h
 //  FutureStackTimeline
 //
 //  Created by James on 10/27/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FSViewController : UIViewController
+@interface FSMainTimeline : UITableViewController
 
 @end

@@ -15,13 +15,14 @@
 		1A8622E3181DE80300310F86 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8622E2181DE80300310F86 /* FSAppDelegate.m */; };
 		1A8622E6181DE80300310F86 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8622E4181DE80300310F86 /* Main_iPhone.storyboard */; };
 		1A8622E9181DE80300310F86 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8622E7181DE80300310F86 /* Main_iPad.storyboard */; };
-		1A8622EC181DE80300310F86 /* FSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8622EB181DE80300310F86 /* FSViewController.m */; };
 		1A8622EE181DE80300310F86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8622ED181DE80300310F86 /* Images.xcassets */; };
 		1A8622F5181DE80300310F86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8622F4181DE80300310F86 /* XCTest.framework */; };
 		1A8622F6181DE80300310F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8622D2181DE80300310F86 /* Foundation.framework */; };
 		1A8622F7181DE80300310F86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8622D6181DE80300310F86 /* UIKit.framework */; };
 		1A8622FF181DE80300310F86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A8622FD181DE80300310F86 /* InfoPlist.strings */; };
 		1A862301181DE80300310F86 /* FutureStackTimelineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A862300181DE80300310F86 /* FutureStackTimelineTests.m */; };
+		1A86230C181DE86C00310F86 /* FSMainTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A86230B181DE86C00310F86 /* FSMainTimeline.m */; };
+		1A86230E181E0B4F00310F86 /* vote.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1A86230D181E0B4F00310F86 /* vote.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,15 @@
 		1A8622E2181DE80300310F86 /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
 		1A8622E5181DE80300310F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1A8622E8181DE80300310F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		1A8622EA181DE80300310F86 /* FSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSViewController.h; sourceTree = "<group>"; };
-		1A8622EB181DE80300310F86 /* FSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSViewController.m; sourceTree = "<group>"; };
 		1A8622ED181DE80300310F86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A8622F3181DE80300310F86 /* FutureStackTimelineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutureStackTimelineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8622F4181DE80300310F86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1A8622FC181DE80300310F86 /* FutureStackTimelineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FutureStackTimelineTests-Info.plist"; sourceTree = "<group>"; };
 		1A8622FE181DE80300310F86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A862300181DE80300310F86 /* FutureStackTimelineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureStackTimelineTests.m; sourceTree = "<group>"; };
+		1A86230A181DE86C00310F86 /* FSMainTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMainTimeline.h; sourceTree = "<group>"; };
+		1A86230B181DE86C00310F86 /* FSMainTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMainTimeline.m; sourceTree = "<group>"; };
+		1A86230D181E0B4F00310F86 /* vote.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vote.jpeg; path = Images.xcassets/vote.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +120,8 @@
 				1A8622E2181DE80300310F86 /* FSAppDelegate.m */,
 				1A8622E4181DE80300310F86 /* Main_iPhone.storyboard */,
 				1A8622E7181DE80300310F86 /* Main_iPad.storyboard */,
-				1A8622EA181DE80300310F86 /* FSViewController.h */,
-				1A8622EB181DE80300310F86 /* FSViewController.m */,
+				1A86230A181DE86C00310F86 /* FSMainTimeline.h */,
+				1A86230B181DE86C00310F86 /* FSMainTimeline.m */,
 				1A8622ED181DE80300310F86 /* Images.xcassets */,
 				1A8622D9181DE80300310F86 /* Supporting Files */,
 			);
@@ -129,6 +131,7 @@
 		1A8622D9181DE80300310F86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A86230D181E0B4F00310F86 /* vote.jpeg */,
 				1A8622DA181DE80300310F86 /* FutureStackTimeline-Info.plist */,
 				1A8622DB181DE80300310F86 /* InfoPlist.strings */,
 				1A8622DE181DE80300310F86 /* main.m */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A86230E181E0B4F00310F86 /* vote.jpeg in Resources */,
 				1A8622E9181DE80300310F86 /* Main_iPad.storyboard in Resources */,
 				1A8622EE181DE80300310F86 /* Images.xcassets in Resources */,
 				1A8622E6181DE80300310F86 /* Main_iPhone.storyboard in Resources */,
@@ -254,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A86230C181DE86C00310F86 /* FSMainTimeline.m in Sources */,
 				1A8622DF181DE80300310F86 /* main.m in Sources */,
 				1A8622E3181DE80300310F86 /* FSAppDelegate.m in Sources */,
-				1A8622EC181DE80300310F86 /* FSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
